@@ -118,7 +118,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATICFILES_DIRS = [
-    'C:\\Users\\lvadlamu\\Desktop\\TestPro\\static',
+    'C:\\Users\\16692\\Desktop\\TestPro\\static',
 ]
 
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static')
