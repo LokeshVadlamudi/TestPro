@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Test.apps.TestConfig'
 ]
 
 MIDDLEWARE = [
@@ -118,7 +119,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
-    'C:\\Users\\16692\\Desktop\\TestPro\\static',
+    'C:\\Users\\Revanth\\Documents\\GitHub\\TestPro\\static',
 )
 
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static')
