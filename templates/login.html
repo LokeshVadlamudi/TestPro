@@ -2,5 +2,20 @@
 
 {% block content %}
 Login Form
+    <div data-validate = "Enter username">
+        <input type="text" name="username" placeholder="User name">
+		<span data-placeholder="&#xe82a;"></span>
+    </div>
+
+<div data-validate="Enter password">
+						<input class="input100" type="password" name="pass" placeholder="Password">
+						<span class="focus-input100" data-placeholder="&#xe80f;"></span>
+					</div>
+
+<div>
+						<button class="login100-form-btn">
+							Login
+						</button>
+					</div>
 {% endblock %}
 
